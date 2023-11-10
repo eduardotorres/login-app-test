@@ -1,0 +1,19 @@
+appium_lib:
+  "server_url": "http://0.0.0.0:4723"
+  "wait": 20
+  "wait_interval": 1
+  "wait_timeout": 20
+
+caps:
+  "platformName": "Android"
+  "platformVersion": "13"
+  "deviceName": "Pixel 4 API 33"
+  "app": "./app-debug.apk"
+
+  "automationName": "UiAutomator2"
+  "appPackage": "com.example.vamsi.login"
+  "appActivity": "com.example.vamsi.login.MainActivity"
+
+  "newCommandTimeout": 3600
+  "resetKeyboard": true
+  "avdArgs": "-no-window"
